@@ -1,8 +1,38 @@
 from setuptools import setup, find_packages
 
-import roller
-
 setup(
-    name="roller",
-    packages=find_packages('.')
+    name='roller',
+    version='0.0.1',
+    description='Roller: Fast and Efficient Tensor Compilcation for Deep Learning',
+    url='TODO',
+    author='TODO',
+    author_email='TODO',
+    licence='MIT',
+    classifiers=[
+        'Development Status :: 2 - Pre-Alpha',
+        'Environment :: GPU',
+        'Intended Audience :: Developers',
+        'Intended Audience :: Education',
+        'Intended Audience :: Science/Research',
+        'License :: OSI Approved :: MIT License',
+        'Programming Language :: Python :: 3',
+        'Programming Language :: Python :: 3 :: Only',
+        'Programming Language :: Python :: 3.5',
+        'Programming Language :: Python :: 3.6',
+        'Programming Language :: Python :: 3.7',
+        'Programming Language :: Python :: 3.8',
+        'Programming Language :: Python :: 3.9',
+        'Topic :: Scientific/Engineering',
+        'Topic :: Scientific/Engineering :: Artificial Intelligence',
+        'Topic :: Software Development',
+        'Topic :: Software Development :: Libraries',
+        'Topic :: Software Development :: Libraries :: Python Modules',
+    ],
+    keywords='deep learning, tensor compilcation',
+    project_urls={
+        'Source': 'TODO',
+        'Tracker': 'TODO',
+    },
+    packages=find_packages('.'),
+    python_requires='>=3.6, <4',
 )
